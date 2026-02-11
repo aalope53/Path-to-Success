@@ -1,4 +1,5 @@
-/* CSS BY Aaron Lopez */
+
+/* CSS BY Aaron Lopez*/
 /* IMPORTED FONTS */
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Kavoon&display=swap');
 
@@ -9,7 +10,7 @@
    License: none (public domain)
 */
 
-html, body, div, span, applet, object, iframe,
+/* html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
 del, dfn, em, img, ins, kbd, q, s, samp,
@@ -30,7 +31,7 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
+/* article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
@@ -51,10 +52,10 @@ q:before, q:after {
 table {
 	border-collapse: collapse;
 	border-spacing: 0;
-}
+} 
 
 /* ROOT VARIABLES */
-:root {
+/* :root {
     --Teal :#4CA7C0;
     --Purple: #484FB7;
     --Lavender: #6B8FE7;
@@ -63,5 +64,7 @@ table {
     --Dark-gray:#1E1E1E; 
     --White:#ffffff; 
 
-}
-/* GLOBAL STYLES (mobile first/small) */
+}           
+/* GLOBAL STYLES (mobile first/small) */ 
+
+
