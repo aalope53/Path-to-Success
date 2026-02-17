@@ -96,9 +96,61 @@ h4 {
 	font-size: 1.15em;
 }
 
+body {
+	max-width: 450px;
+	
+	
+
+}
+
+html {
+	background-color: var(--Lavender);
+	
+}
+
+
 header {
 	text-align: center;
 	background-color: var(--Purple); 
 	color: white;
+	padding: 10px;
+}
+
+nav {
+	text-align: center;
+	background-color: var(--Yellow);
+	color: var(--Purple);
+}
+
+nav li {
+	background-color: white;
+	padding: 5px; 
+	
+
+}
+
+/* Our Services Styles */
+
+#Services {
+	background-color: var(--Purple);
+}
+
+#Services h2 {
+	color: white;
+}
+
+
+
+
+/* Why Choose Us Styles */
+
+#WhyUs {
+	background-color: var(--Pink);
+}
+
+/*First Steps Styles */
+
+#Firststeps {
+	background-color: var(--Pink);
 }
 
