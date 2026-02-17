@@ -82,6 +82,11 @@ h1 {
 
 nav h2 {
 	font-size: 1.5em;
+	font-family: Inter;
+	font-weight: bold;
+	color: black;
+	padding: 5px;
+
 }
 
 h2 {
@@ -98,17 +103,13 @@ h4 {
 
 body {
 	max-width: 450px;
-	
-	
-
 }
 
 html {
-	background-color: var(--Lavender);
-	
+	background-color: var(--Lavender);	
 }
 
-
+/* Header Styles */
 header {
 	text-align: center;
 	background-color: var(--Purple); 
@@ -116,27 +117,46 @@ header {
 	padding: 10px;
 }
 
+/* Nav Styles */
 nav {
 	text-align: center;
 	background-color: var(--Yellow);
 	color: var(--Purple);
 }
 
+
+
 nav li {
 	background-color: white;
 	padding: 5px; 
-	
-
+	margin: 10px;
 }
 
 /* Our Services Styles */
 
 #Services {
 	background-color: var(--Purple);
+	
 }
 
 #Services h2 {
 	color: white;
+}
+
+#Services h3 {
+	color: var(--Yellow);
+	font-weight: bold;
+}
+
+#Services div {
+	background-color: white;
+	margin: 20px;
+	padding: 20px;
+	border-radius: 15px;
+}
+
+#Services p {
+	padding: 15px;
 }
 
 
@@ -146,6 +166,7 @@ nav li {
 
 #WhyUs {
 	background-color: var(--Pink);
+	padding: 10px;
 }
 
 /*First Steps Styles */
