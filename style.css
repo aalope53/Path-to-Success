@@ -150,7 +150,6 @@ nav a {
 #Services {
 	background-color: var(--Purple);
 	padding: 10px;
-	
 }
 
 #Services h2 {
@@ -190,5 +189,28 @@ nav a {
 
 #Firststeps {
 	background-color: var(--Pink);
+	padding: 10px;
+}
+
+#Firststeps h2 {
+	color: white;
+}
+
+#Firststeps p {
+	color: white;
+	padding-top: 10px;
+}
+
+#Firststeps button {
+	padding: 20px;
+	border-radius: 10px;
+	background-color: white;
+	border: none;
+	font-weight: bold;
+	margin-top: 10px;
+	width: 95%;
+	font-family: Inter;
+	box-shadow: 5px 6px 5px var(--Dark-gray);
+	
 }
 
