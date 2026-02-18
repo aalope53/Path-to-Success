@@ -86,6 +86,7 @@ nav h2 {
 	font-weight: bold;
 	color: black;
 	padding: 5px;
+	font-style: italic;
 
 }
 
@@ -114,7 +115,12 @@ header {
 	text-align: center;
 	background-color: var(--Purple); 
 	color: white;
-	padding: 10px;
+	padding: 30px;
+	
+}
+
+header p {
+	font-style: italic;
 }
 
 /* Nav Styles */
@@ -122,20 +128,28 @@ nav {
 	text-align: center;
 	background-color: var(--Yellow);
 	color: var(--Purple);
+	padding: 15px;
 }
 
 
 
 nav li {
 	background-color: white;
-	padding: 5px; 
+	padding: 15px; 
 	margin: 10px;
+	color: var(--Lavender);
+	font-weight: bold;
+}
+
+nav a {
+	text-decoration: none;
 }
 
 /* Our Services Styles */
 
 #Services {
 	background-color: var(--Purple);
+	padding: 10px;
 	
 }
 
@@ -148,18 +162,19 @@ nav li {
 	font-weight: bold;
 }
 
+#Services h4 {
+	color: var(--Purple);
+	font-weight: bold;
+	padding-top: 15px;
+	
+}
+
 #Services div {
 	background-color: white;
 	margin: 20px;
-	padding: 20px;
+	padding: 25px;
 	border-radius: 15px;
 }
-
-#Services p {
-	padding: 15px;
-}
-
-
 
 
 /* Why Choose Us Styles */
@@ -168,6 +183,8 @@ nav li {
 	background-color: var(--Pink);
 	padding: 10px;
 }
+
+
 
 /*First Steps Styles */
 
