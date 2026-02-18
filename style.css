@@ -74,6 +74,7 @@ h1, h2 {
 
 body {
 	font-family: Inter;
+	margin: 0 auto;
 }
 
 h1 {
@@ -182,24 +183,26 @@ nav a {
 #WhyUs {
 	background-color: var(--Pink);
 	padding: 10px;
-	display: grid;
-	grid-template-columns: auto auto;
 }
 
 #WhyUs h2 {
 	color: white;
-	grid-column: 1 / -1;
 }
 
 #WhyUs li {
 	padding: 50px;
 	margin-bottom: 10px;
 	margin-top: 10px;
-	display: block;
-	width: 30%;
+	width: 50%;
 	font-weight: bold;
 	border-radius: 10px;
+	text-align: center;
+	font-size: 20px;
 
+}
+#WhyUs ul {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
 }
 
 .item-1 {
@@ -218,7 +221,33 @@ nav a {
     background-color: var(--White);
 }
 
+/* Prices Styles */
 
+#Pricing {
+	background-color: var(--Purple);
+	padding: 20px;
+}
+
+#Pricing h2 {
+	color: white;
+}
+
+#Pricing h3 {
+	color: var(--Yellow);
+	font-weight: bold;
+	
+}
+
+#Pricing th {
+	background-color: var(--Yellow);
+	padding: 20px;
+	font-weight: bold;
+}
+
+#Pricing td {
+	background-color: white;
+	padding: 20px;
+}
 
 /*First Steps Styles */
 
@@ -237,12 +266,13 @@ nav a {
 }
 
 #Firststeps button {
-	padding: 20px;
+	padding: 25px;
 	border-radius: 10px;
 	background-color: white;
 	border: none;
 	font-weight: bold;
 	margin-top: 10px;
+	margin-left: 30px;
 	width: 80%;
 	font-family: Inter;
 	box-shadow: 5px 6px 5px var(--Dark-gray);
