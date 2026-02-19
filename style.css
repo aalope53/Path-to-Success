@@ -246,12 +246,13 @@ nav a {
 	background-color: var(--Yellow);
 	padding: 20px;
 	font-weight: bold;
+	border: 2px solid var(--Yellow);
 }
 
 #Pricing td {
 	background-color: white;
 	padding: 20px;
-	border: 1px solid var(--Yellow);
+	border: 2px solid var(--Yellow);
 }
 
 /*First Steps Styles */
@@ -295,7 +296,11 @@ footer {
 footer small, footer a {
 	color: white;
 	font-size: 12px;
-	margin: 0 auto;
+	
+}
+
+footer small {
+	margin-left: 45px;
 }
 
 
